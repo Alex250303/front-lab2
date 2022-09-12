@@ -1,1 +1,1 @@
-# Table and pictures
+# Table and picture
