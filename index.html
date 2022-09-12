@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Таблиця, зображення за допомогою position та transform">
+        <meta name="description" content="Побудова таблиці та зображення">
+        <title>Косюк О. Б. ІС-01 Лабораторна №2 Варіант №73</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            table {
+                width: 50%;
+                text-align: center;
+                table-layout: fixed;
+                color:rgb(121, 44, 44);
+                border-collapse: collapse;
+            }
+            td {
+                height: 30px;
+                font-size: 20px;
+            }
+            td, th {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            .color_first {
+                background-color: #738f8f;
+            }
+            .color_second {
+                background-color: #f5f573;
+            }
+            .color_first:hover {
+                background-color: #f5f573;
+            }
+            .color_second:hover {
+                background-color: #738f8f;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Завдання 1</h3>
+        <table>
+            <tr class="color_first">
+                <td rowspan="2">Косюк</td>
+                <td>Олексій</td>
+                <td rowspan="2" colspan="2">Богданович</td>
+            </tr>
+            <tr>
+                <td>&nbsp</td>
+            </tr>
+            <tr class="color_second">
+                <td>ІC-01</td>
+                <td>Лабораторна №2</td>
+                <td>Варіант</td>
+                <td>№73</td>
+            </tr>
+            <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+                <td colspan="2">&nbsp</td>
+            </tr>
+        </table>
+        <h2>Завдання 2</h3>
+        <h3>Position</h3>
+        <div class="figure_ figure">
+            <div class="block_1 b1"></div>
+            <div class="block_2 b2"></div>
+            <div class="block_3 b3"></div>
+        </div>
+        <h3>Transform</h3>
+        <div class="figure">
+            <div class="block1 b1"></div>
+            <div class="block2 b2"></div>
+            <div class="block3 b3"></div>
+        </div>
+    </body>
+</html>
